@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Screen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="registerScreen.css" rel="stylesheet">
+</head>
+<body>
+    <div id="upBorder" class="p-3 bg-info bg-opacity-100"></div>
+    <div id="downBorder" class="p-3 bg-info bg-opacity-25"></div>
+    <form class="row g-3">
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-12">
+                    <label for="inputUserName" class="form-label field">User Name:</label>
+                </div>
+                <div class="col-12">
+                    <input type="text" class="form-control" id="inputUserName" placeholder="Enter your username">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-12">
+                    <label for="inputPassword" class="form-label field">Password:</label>
+                </div>
+                <div class="col-12">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Enter your password">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-12">
+                    <label for="inputDisplayName" class="form-label field">Display Name:</label>
+                </div>
+                <div class="col-12">
+                    <input type="text" class="form-control" id="inputUserName" placeholder="Enter your displayname">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-12">
+                    <label for="inputProfilePicture" class="form-label field">Profile Picture:</label>
+                </div>
+                <div class="col-12">
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <img id="selectedImage" src="a.jpg">
+            <button type="submit" class="btn btn-primary">Register</button>
+            <label for="inputPassword" class="form-label register">Already registed? <a id="click-here" href="openScreen.html">Click here</a> to login</label>
+        </div>        
+    </form>
+</body>
+</html>
