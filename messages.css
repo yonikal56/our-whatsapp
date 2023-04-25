@@ -37,7 +37,7 @@
     background-color: azure;
 }
 
-.avatar, .media-body {
+.avatar {
     border-radius: 25px;
     height: 50px;
     width: 50px;
@@ -45,19 +45,28 @@
 }
 
 .messages {
-    height: 85%;
+    height: 83%;
     width: 100%;
 }
 
+.conversations {
+    width: 100%;
+    height: 90%;
+}
+
 .footer {
-    height: 5%;
+    height: 7%;
     width: 100%;
     background-color: azure;
 }
 
+.footer div, .footer-btn {
+    height: 100%;
+}
+
 .real-messages {
     position: absolute;
-    bottom: 5%;
+    bottom: 7%;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -101,4 +110,18 @@
 .message-right {
     position: relative;
     right: 0px;
+}
+
+.media {
+    width: 100%;
+}
+
+.conversations > div {
+    height: 10%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    float: right;
 }
