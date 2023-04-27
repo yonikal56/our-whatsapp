@@ -5,11 +5,11 @@ html, body {
 }
 
 #upBorder {
-    height: 100px;
+    height: 15%;
 }
 
 #downBorder {
-    height: calc(100% - 100px);
+    height: 85%;
 }
 
 form {
@@ -42,4 +42,12 @@ margin-top: 5px;
 #click-here {
 color: rgb(0, 195, 255);
 text-decoration: underline;
+}
+
+.main-body-back-ground{
+    background-color: #bbf2ff;
+}
+
+.top-body-back-ground{
+    background-color: #0dcaf0;
 }
