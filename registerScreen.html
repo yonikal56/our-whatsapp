@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,64 +9,53 @@
     <link href="registerScreen.css" rel="stylesheet">
 </head>
 <body>
-    <div id="upBorder" class="p-3 bg-info bg-opacity-100"></div>
-    <div id="downBorder" class="p-3 bg-info bg-opacity-25"></div>
-    <form class="row g-3">
-        <div class="col-md-6">
-            <div class="row">
-                <div class="col-12">
-                    <label for="inputUserName" class="form-label field">User Name:</label>
-                </div>
-                <div class="col-12">
-                    <input type="text" class="form-control" id="inputUserName" placeholder="Enter your username">
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="row">
-                <div class="col-12">
-                    <label for="inputPassword" class="form-label field">Password:</label>
-                </div>
-                <div class="col-12">
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Enter your password">
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="row">
-                <div class="col-12">
-                    <label for="inputDisplayName" class="form-label field">Display Name:</label>
-                </div>
-                <div class="col-12">
-                    <input type="text" class="form-control" id="inputUserName" placeholder="Enter your displayname">
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="row">
-                <div class="col-12">
-                    <label for="inputConfirmPassword" class="form-label field">Confirm Password:</label>
-                </div>
-                <div class="col-12">
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Repeat your password">
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="row">
-                <div class="col-12">
-                    <label for="inputProfilePicture" class="form-label field">Profile Picture:</label>
-                </div>
-                <div class="col-12">
-                    <input class="form-control" type="file" accept="image/*" id="formFile">
+    <div id="upBorder" class="top-body-back-ground"></div>
+    <div id="downBorder" class="main-body-back-ground">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10">
+                    <form class="form-register">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="inputUserName" class="form-label field">User Name:</label>
+                                <input type="text" class="form-control" id="inputUserName" placeholder="Enter your username">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="inputPassword" class="form-label field">Password:</label>
+                                <input type="password" class="form-control" id="inputPassword" placeholder="Enter your password">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="inputDisplayName" class="form-label field">Display Name:</label>
+                                <input type="text" class="form-control" id="inputDisplayName" placeholder="Enter your display name">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="inputConfirmPassword" class="form-label field">Confirm Password:</label>
+                                <input type="password" class="form-control" id="inputConfirmPassword" placeholder="Repeat your password">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="inputProfilePicture" class="form-label field">Profile Picture:</label>
+                                <input class="form-control" type="file" accept="image/*" id="formFile">
+                            </div>
+                            <div class="col-md-6">
+                                <img id="selectedImage" src="./photos/a.jpg">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <button type="submit" class="btn btn-primary">Register</button>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputPassword" class="form-label register">Already registered? <a id="click-here" href="openScreen.html">Click here</a> to login</label>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-        <div class="col-12">
-            <img id="selectedImage" src="a.jpg">
-            <button type="submit" class="btn btn-primary">Register</button>
-            <label for="inputPassword" class="form-label register">Already registed? <a id="click-here" href="openScreen.html">Click here</a> to login</label>
-        </div>        
-    </form>
+    </div>
 </body>
 </html>
