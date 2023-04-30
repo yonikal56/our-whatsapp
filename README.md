@@ -26,7 +26,7 @@ Please note that this project is a front-end prototype only. it will be fully fu
 
 The project contains three main HTML files that serve as templates for the user interface:
 
-- `login.html`: The login screen where users enter their credentials to access the application.
+- `index.html`: The login screen where users enter their credentials to access the application.
 - `register.html`: The registration screen where new users can create an account.
 - `messages.html`: The main messaging screen, which includes a user list, chat area and logout button.
 
