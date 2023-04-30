@@ -17,7 +17,7 @@ To set up the project on your local machine, follow these steps:
 
 1. Clone the repository to your computer.
 2. Ensure you have a web browser installed to run the HTML and the CSS files.
-3. Open the `login.html` file in your web browser to access the login screen.
+3. Open the `index.html` file in your web browser to access the login screen.
 4. Register a new account or log in with an existing one.
 
 Please note that this project is a front-end prototype only. it will be fully functional in the close future.
